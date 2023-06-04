@@ -1,5 +1,5 @@
 ## Terraform Final Task ITI
-This repository contains the Terraform code to deploy infrastructure on AWS. It includes creating a VPC with two public and two private subnets, launching EC2 instances in the public and private subnets.
+This repository contains the Terraform code to deploy infrastructure on AWS. It includes creating a VPC with two public and two private subnets, launching EC2 instances in the public and private subnets, Store the state file on s3 bucket and it by dynamoDB.
 
 ## AWS Architecture
 ![terraform final task ITI drawio](https://github.com/MOstafaZaRiaa/terraform-iti/blob/main/screens/255c65c5-3438-490f-90ba-b94abc186a8c.jpg)
@@ -37,7 +37,8 @@ Run `terraform init` to download the necessary Terraform plugins.
 
 Run `terraform apply` to create the infrastructure.
 
-## Terraform Final Result
+## Final Result
 you can check the look inspect .terraform/terraform.tfstate, you will see that it contains the location of the state file now instead of the actual state file.
 
 ![check look on state file](https://github.com/MOstafaZaRiaa/terraform-iti/blob/main/screens/2.PNG)
+
