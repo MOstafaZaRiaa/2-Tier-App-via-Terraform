@@ -36,3 +36,7 @@ $ terraform workspace new prod
 Run `terraform init` to download the necessary Terraform plugins.
 
 Run `terraform apply` to create the infrastructure.
+
+## Terraform Final Result
+you can check the look inspect .terraform/terraform.tfstate, you will see that it contains the location of the state file now instead of the actual state file.
+![check look on state file](https://github.com/MOstafaZaRiaa/terraform-iti/blob/main/screens/2.PNG)
